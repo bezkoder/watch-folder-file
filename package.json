@@ -1,0 +1,20 @@
+{
+  "name": "watch-folder-file",
+  "version": "1.0.0",
+  "description": "Demo for watching folder/file changes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watch-folder",
+    "watch-file"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "read-last-lines": "^1.7.1"
+  }
+}
